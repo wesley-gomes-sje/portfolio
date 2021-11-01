@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Icones -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--Swiper css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Wesley Gomes Portfolio</title>
 </head>
@@ -750,7 +752,83 @@
          </div>
      </section>
 
+
+
      <!--Portfolio-->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfólio</h2>
+        <span class="section__subtitle"> Trabalhos recentes</span>
+
+        <div class="portfolio__container container swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!--Portfolio 1-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/trabalho1.png" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Landing Page moderna</h3>
+                        <p class="portfolio__description">Landing page adaptada para diversos aparelhos 
+                            e resoluções, criada no intuito de aprimorar meus conhecimentos em desenvolvimento responsivo.
+                        </p>
+                        <a href="https://wesley-gomes-sje.github.io/landingPageResponsiva/" class="button button--flex button--small portfolio__button">
+                            Visualizar
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Portfolio 2-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/trabalho2.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Curriculo online</h3>
+                        <p class="portfolio__description">Página simples e responsiva, criada para ser meu currículo online,
+                             armazenei o código no Github e usei o Github Pages para hospedá-lo.
+                        </p>
+                        <a href="https://wesley-gomes-sje.github.io/" class="button button--flex button--small portfolio__button">
+                            Visualizar
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                 <!--Portfolio 3-->
+                 <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/trabalho3.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Sistema para cadastro de passagens</h3>
+                        <p class="portfolio__description">Projeto criado em HTML, CSS, JAVASCRIPT, PHP E SQL, 
+                            simulando um sistema de compra de passagens, 
+                            trabalho desenvolvido para atender a 
+                            disciplina de Desenvolvimento web ll
+                        </p>
+                        <a href="https://vwturismo.000webhostapp.com/" class="button button--flex button--small portfolio__button">
+                            Visualizar
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+     </section>
+
+
+
+
+
+
+
+
+
 </main>
 
 
@@ -769,7 +847,7 @@
 
 
 
-
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
