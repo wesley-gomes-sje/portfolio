@@ -96,6 +96,7 @@ body.dark-theme{
     box-sizing: border-box;
     padding: 0;
      margin: 0;
+     border: 0;
 }
 
 html{
@@ -207,10 +208,12 @@ img{
 
     }
 }
+
 .nav__list{
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
+
 .nav__link{
     display: flex;
     flex-direction: column;
@@ -328,6 +331,10 @@ img{
     color: var(--title-color);
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
+}
+
+.home__scroll-name:hover {
+    color: var(--first-color-alt);
 }
 
 .home__scroll-arrow{
@@ -963,7 +970,7 @@ img{
 
 @media screen and (min-width: 768px) {
     .container{
-        margin-left: var(--mb-1);
+        margin-left: auto;
         margin-right: auto;
     }
     body{
@@ -984,7 +991,7 @@ img{
     .header,
     .main,
     .footer__container{
-        padding: 0 1rem;
+        padding: 0;
     }
 
     .nav{
