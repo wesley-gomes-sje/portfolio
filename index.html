@@ -20,7 +20,7 @@
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list grid">
                 <li class="nav__item">
-                    <a href="#home" class="nav__link">
+                    <a href="#home" class="nav__link active-link">
                         <i class="uil uil-estate nav__icon"></i> Home
                     </a>
                 </li>
@@ -53,6 +53,8 @@
             <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
         <div class="nav__btns">
+            <!--Botão modo dark -->
+            <i class="uil uil-moon chage-theme" id="theme-button"></i>
             <div class="nav__toggle" id="nav-toggle">
                 <i class="uil uil-apps"></i>
             </div>
@@ -100,7 +102,7 @@
                     <p class="home__description">Fascinado por tecnologia, café, cerveja, vídeo games,
                          e apaixonado por <strong>Lasanha.</strong>
                     </p>
-                    <a href="http://wa.me/5533988546600?text=Olá%20vim%20através%20do%20o%20seu%20Portfólio." class="button button--flex">
+                    <a href="#contact" class="button button--flex">
                         Contato <i class="uil uil-message button__icon"></i>
                     </a>
                 </div>
@@ -752,8 +754,6 @@
          </div>
      </section>
 
-
-
      <!--Portfolio-->
     <section class="portfolio section" id="portfolio">
         <h2 class="section__title">Portfólio</h2>
@@ -822,7 +822,7 @@
      </section>
 
      <!--Projeto em mente-->
-     <section class="project section">
+     <section class="project section" id="project">
          <div class="project__bg">
              <div class="project__container container grid">
                  <div class="project__data">
@@ -839,15 +839,84 @@
 
      </section>
 
+     <!--Contato-->
+     <section class="contact section" id="contact">
+         <h2 class="section__title">Contato</h2>
+         <span class="section__subtitle">Entrar em contato</span>
+         <div class="contact__container container grid">
+             <div>
+                    <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                        <div>
+                           <h3 class="contact__title">Ligar</h3>
+                           <span class="contact__subtitle">(33) 9 8854-6600</span>
+                        </div>
+                    </div>
 
+                    <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contact__subtitle">wesleysiqueiragomes@gmail.com</span>
+                        </div>
+                    </div>
 
+                    <div class="contact__information">
+                            <i class="uil uil-user-location contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Localização</h3>
+                            <span class="contact__subtitle">São João Evangelista - MG</span>
+                        </div>
+                    </div>   
+             </div>
 
+         </div>
+     </section>
 
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Wesley</h1>
+                    <span class="footer__subtitle">FullStack Developer</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__links">Serviços</a>
+                    </li>
 
+                    <li>
+                        <a href="#portfolio" class="footer__links">Portfólio</a>
+                    </li>
 
+                    <li>
+                        <a href="#skills" class="footer__links">Skills</a>
+                    </li>
+                </ul>
 
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/wesley-gomes-b2bb79205/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
 
+                    <a href="https://github.com/wesley-gomes-sje" target="_blank" class="footer__social">
+                        <i class="uil uil-github"></i>
+                    </a>
 
+                    <a href="https://www.instagram.com/wesley.gomes.l/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Com amor. Wesley Gomes</p>
+        </div>
+    </footer>
+
+    <!--Scroll top-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
 </main>
 
 
